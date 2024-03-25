@@ -8,12 +8,12 @@
 **4. LINE Bot互動**：用戶可以通過LINE Bot上傳洗面乳圖片，系統將返回識別結果及相關評價。  
 
 ## 技術線
-Python  
-Keras & TensorFlow 
-網路爬蟲  
-自然語言處理（NLP）  
-LINE Messaging API  
-Google Cloud Run  
+- Python  
+- Keras & TensorFlow   
+- 網路爬蟲  
+- 自然語言處理（NLP）  
+- LINE Messaging API  
+- Google Cloud Run  
 
 ## 前提條件
 - Python版本: 3.8
@@ -25,8 +25,8 @@ Google Cloud Run
 - MySQL設定:
   - `host`: [你的MySQL主機地址]
   - `port`: 3306
-  - `user`: [你的MySQL用户名]
-  - `passwd`: [你的MySQL密码]
+  - `user`: [你的MySQL用戶名]
+  - `passwd`: [你的MySQL密碼]
 - GCP帳戶
 
 
