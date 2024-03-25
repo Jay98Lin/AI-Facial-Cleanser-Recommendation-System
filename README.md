@@ -18,7 +18,7 @@
 ## 前提條件
 - Python版本: 3.8
 - Tensorflow版本: 2.4.0
-- LINE Bot設定:
+- LINE Developers設定:
   - `channel_access_token`: [你的channel_access_token]
   - `channel_secret`: [你的channel_secret]
   - `end_point`: [你的end_point]
