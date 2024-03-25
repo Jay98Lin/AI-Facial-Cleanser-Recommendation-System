@@ -9,11 +9,11 @@
 
 ## 技術線
 Python  
-Keras & TensorFlow  
+Keras & TensorFlow 
+網路爬蟲  
 自然語言處理（NLP）  
 LINE Messaging API  
 Google Cloud Run  
-網路爬蟲  
 
 ## 前提條件
 - Python版本: 3.8
