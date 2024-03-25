@@ -1,0 +1,148 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://6017-220-137-216-106.ngrok-free.app/img/1.jpg",
+    "size": "full",
+    "aspectRatio": "1:1",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "FOMA",
+        "weight": "bold",
+        "size": "lg"
+      },
+      {
+        "type": "text",
+        "text": "超綿感泡泡保濕洗面乳",
+        "weight": "bold",
+        "size": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "margin": "md",
+        "contents": [
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "color": "#000000",
+                "size": "sm",
+                "text": "效果 :",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "易沖淨、起泡容易、泡泡綿密",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 5
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "color": "#ff0000",
+                "size": "sm",
+                "flex": 1,
+                "text": "優點 :",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "泡沫綿密，洗完不緊繃乾燥，清潔力強",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 5
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "color": "#00A600",
+                    "size": "sm",
+                    "flex": 1,
+                    "text": "缺點 :",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "text",
+                    "text": "外包裝設計不良，使用上不方便，用量難以控制",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "看更多評論",
+          "uri": "https://www.cosme.net.tw/products/87330/reviews"
+        },
+        "color": "#FF79BC"
+      },
+      {
+        "type": "button",
+        "style": "primary",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "推薦商品",
+          "text": "推薦商品123"
+        },
+        "color": "#FF79BC"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [],
+        "margin": "sm",
+        "cornerRadius": "none"
+      }
+    ],
+    "flex": 0
+  }
+}

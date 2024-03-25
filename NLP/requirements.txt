@@ -1,0 +1,10 @@
+requests
+jieba
+pandas
+beautifulsoup4
+mysql-connector-python
+openai
+gensim
+numpy
+opencc-python-reimplemented
+scikit-learn

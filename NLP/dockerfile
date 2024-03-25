@@ -1,0 +1,15 @@
+# 使用官方 Python 
+FROM python:3.8.18
+
+
+WORKDIR /usr/src/app
+
+# 將指定内容copy到容器內的 /usr/src/app
+COPY . .
+
+# 安装 requirements.txt 中指定的任何需要的套件
+RUN pip install --no-cache-dir -r requirements.txt
+
+
+# 啟動 app.py
+CMD ["python", "project_crawl.py"]

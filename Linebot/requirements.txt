@@ -1,0 +1,7 @@
+Flask
+Pillow
+tensorflow
+opencv-python
+requests
+line-bot-sdk
+pymysql
