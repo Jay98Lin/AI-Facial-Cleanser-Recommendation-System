@@ -37,8 +37,7 @@ Google Cloud Run
 bash
 Copy code
 
-1. 下載完整檔案：
-git clone https://github.com/Jay98Lin/AI-Project.git
+1. 下載完整檔案：git clone https://github.com/Jay98Lin/AI-Project.git  
 
 ## 安裝依賴
 pip install -r requirements.txt
@@ -50,4 +49,11 @@ Linebot資料夾中的主程式：1_linebot_main.py
 
 ## 使用說明
 說明用戶如何與LINE Bot互動，包括如何發送圖片，以及如何理解系統返回的信息。
+
+## 貢獻指南
+鼓勵更多的開發者參與進來，對於如何貢獻代碼、報告問題或提供功能建議給出說明。
+
+## 致謝
+感謝所有使用和支持本項目的人。
+特別感謝所有對項目代碼做出貢獻的開發者。
 
