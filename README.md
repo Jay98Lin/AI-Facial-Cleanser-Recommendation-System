@@ -38,22 +38,22 @@
 **2. 模型部署**: 將AI_recognition資料夾中已訓練好的模型`05.MobileNetV2_0212.h5`轉為SavedModel格式, 並用Docker build部署到GCP cloud run  
 **3. 自動爬蟲部署**： 將整個NLP資料夾透過Docker build方式, 部署到Google Cloud Run  
 **4. 準備好您的ＭySQL**: 可將網路爬蟲更新的評論資訊, 放進您的資料庫  
+**5. LINE Bot開發**: 準備好您的Line Developers  
 
 ## 安裝依賴
 **自動爬蟲**：至NLP資料夾：pip install -r `requirements.txt`  
 **LINE Bot**: 至Linebot資料夾: pip install -r `requirements.txt`  
 
 ## 本地運行
-經前面敘述, 先將模型＋爬蟲部署至GCP的cloud run(或VM)
-可用Linebot資料夾中的主程式：`1_linebot_main.py`
-
+經前面敘述, 先將模型＋爬蟲部署至GCP的cloud run(或架在VM)
+可在本地端運行Linebot資料夾中的主程式：`1_linebot_main.py`
 部署到Google Cloud Run
 
 ## 使用說明
 說明用戶如何與LINE Bot互動，包括如何發送圖片，以及如何理解系統返回的信息。
 
 ## 貢獻指南
-鼓勵更多的開發者參與進來，對於如何貢獻代碼、報告問題或提供功能建議給出說明。
+歡迎更多的開發者共同參與，對於目前的代碼、運作問題或擴充功能給予建議及說明。
 
 ## 致謝
 感謝所有使用和支持本項目的人。
