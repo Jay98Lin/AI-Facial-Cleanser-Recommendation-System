@@ -31,19 +31,21 @@
 
 
 
-## 安裝和運行
-提供一步步的指南，說明如何安裝必要的依賴、如何本地運行項目以及如何部署到Google Cloud Run。
+## 安裝流程
+提供一步步的指南，說明如何安裝必要的依賴、如何本地運行項目以及如何部署到Google Cloud Run。  
 
-bash
-Copy code
-
-1. 下載完整檔案：git clone https://github.com/Jay98Lin/AI-Project.git  
+**1. 下載完整檔案**: git clone https://github.com/Jay98Lin/AI-Project.git  
+**2. 模型部署**: 將AI_recognition資料夾中已訓練好的模型`05.MobileNetV2_0212.h5`轉為SavedModel格式, 並用Docker build部署到GCP cloud run  
+**3. 自動爬蟲部署**： 將整個NLP資料夾透過Docker build方式, 部署到Google Cloud Run  
+**4. 準備好您的ＭySQL**: 可將網路爬蟲更新的評論資訊, 放進您的資料庫  
 
 ## 安裝依賴
-pip install -r requirements.txt
+**自動爬蟲**：至NLP資料夾：pip install -r `requirements.txt`  
+**LINE Bot**: 至Linebot資料夾: pip install -r `requirements.txt`  
 
 ## 本地運行
-Linebot資料夾中的主程式：1_linebot_main.py
+經前面敘述, 先將模型＋爬蟲部署至GCP的cloud run(或VM)
+可用Linebot資料夾中的主程式：`1_linebot_main.py`
 
 部署到Google Cloud Run
 
