@@ -35,22 +35,25 @@
 提供一步步的指南，說明如何安裝必要的依賴、如何本地運行項目以及如何部署到Google Cloud Run。  
 
 **1. 下載完整檔案**: git clone https://github.com/Jay98Lin/AI-Project.git  
-**2. 模型部署**: 將AI_recognition資料夾中已訓練好的模型`05.MobileNetV2_0212.h5`轉為SavedModel格式, 並用Docker build部署到GCP cloud run  
-**3. 自動爬蟲部署**： 將整個NLP資料夾透過Docker build方式, 部署到Google Cloud Run  
+**2. 模型部署**: 將`AI_recognition`資料夾中已訓練好的模型`05.MobileNetV2_0212.h5`轉為SavedModel格式, 並用Docker build部署到GCP cloud run  
+**3. 自動爬蟲部署**： 將整個`NLP`資料夾透過Docker build方式, 部署到Google Cloud Run  
 **4. 準備好您的ＭySQL**: 可將網路爬蟲更新的評論資訊, 放進您的資料庫  
-**5. LINE Bot開發**: 準備好您的Line Developers  
+**5. LINE Bot**: 可將`Linebot`資料夾透過Docker build方式, 部署到Google Cloud Run
 
 ## 安裝依賴
 **自動爬蟲**：至NLP資料夾：pip install -r `requirements.txt`  
 **LINE Bot**: 至Linebot資料夾: pip install -r `requirements.txt`  
 
 ## 本地運行
-經前面敘述, 先將模型＋爬蟲部署至GCP的cloud run(或架在VM)
-可在本地端運行Linebot資料夾中的主程式：`1_linebot_main.py`
-部署到Google Cloud Run
+經前面敘述, 先將模型＋爬蟲部署至GCP的cloud run(或架在VM)  
+可在本地端運行Linebot資料夾中的主程式：`1_linebot_main.py`  
+如需雲端服務, 可用Docker build部署到Google Cloud Run  
 
 ## 使用說明
-說明用戶如何與LINE Bot互動，包括如何發送圖片，以及如何理解系統返回的信息。
+此辨識系統目前共有四個功能：  
+
+**1. 拍照辨識**：可拍照洗面乳照片，系統會回傳該洗面乳相關的網路評價分數，優缺點以及相關推薦產品給您。  
+**2. 選擇膚質**：使用者可輸入自己的年齡及膚質等資訊，尋找最適合自己的洗面乳及相關推薦產品。  
 
 ## 貢獻指南
 歡迎更多的開發者共同參與，對於目前的代碼、運作問題或擴充功能給予建議及說明。
